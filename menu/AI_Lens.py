@@ -16,7 +16,7 @@ def image_to_byte_array(image: Image) -> bytes:
     imgByteArr = imgByteArr.getvalue()
     return imgByteArr
 
-genai.configure(api_key='AIzaSyBCQE5RLtXGOaM2rXeeM1NYA_OdNTBxrnw')
+genai.configure(api_key='OPENAI_API_KEY')
 
 def main():
     st.write("<h1><center>Virtual Assistant Interface</center></h1>", unsafe_allow_html=True)

@@ -7,7 +7,7 @@ import json
 import os
 
 load_dotenv()
-genai.configure(api_key=os.getenv("AIzaSyBCQE5RLtXGOaM2rXeeM1NYA_OdNTBxrnw"))
+genai.configure(api_key=os.getenv("OPENAI_API_KEY"))
 model = genai.GenerativeModel('gemini-pro')
 
 def main():

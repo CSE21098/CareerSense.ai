@@ -18,7 +18,7 @@ import asyncio
 load_dotenv()
 
 os.getenv("GOOGLE_API_KEY")
-genai.configure(api_key=os.getenv("AIzaSyBCQE5RLtXGOaM2rXeeM1NYA_OdNTBxrnw"))
+genai.configure(api_key=os.getenv("OPENAI_API_KEY"))
 
 def get_pdf_text(pdf_docs):
     text = ""
